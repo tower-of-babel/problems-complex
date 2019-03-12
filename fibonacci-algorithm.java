@@ -5,10 +5,12 @@ import java.util.stream.IntStream;
 
 public class Main {
 
+    /*
     public static void main(String[] args) {
         int[] a = fibonacci_series(7);
         System.out.println(Arrays.toString(a));
     }
+    */
 
     public static int fibonacci_nth(int n) {
         if(n == 0) return 0;

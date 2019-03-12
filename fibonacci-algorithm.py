@@ -8,4 +8,4 @@ class Fibonacci:
 		return [self.fibonacci_nth(x) for x in range(n+1)]
 
 
-print(Fibonacci().fibonacci_series(7))
+# print(Fibonacci().fibonacci_series(7))
