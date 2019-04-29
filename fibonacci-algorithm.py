@@ -1,4 +1,7 @@
+from functools import lru_cache
+
 class Fibonacci:
+	@lru_cache(maxsize = 1000)
 	def fibonacci_nth(self, n):
 		if(n == 0): return 0
 		if(n == 1): return 1
