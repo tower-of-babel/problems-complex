@@ -6,4 +6,4 @@ def fibonacci_nth(n):
 def fibonacci_series(n):
 	return [fibonacci_nth(x) for x in range(n)]
 
-# print(fibonacci_series(7))
+# fibonacci_series(7) returns [0, 1, 1, 2, 3, 5, 8]
