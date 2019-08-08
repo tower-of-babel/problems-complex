@@ -10,4 +10,4 @@ function fibonacci_series(int $n): array {
 	return array_map('fibonacci_nth', range(0, $n));
 }
 
-// print_r(fibonacci_series(7));
+// fibonacci_series(7); returns
